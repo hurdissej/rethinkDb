@@ -17,6 +17,9 @@ namespace rethink.ObjectDatabaseConfig
         public void InitialiseDatabase()
         {
             CreateDb(_dbName);
+
+            CreateTable(_dbName, nameof(Movie));
+            CreateTable(_dbName, nameof(Actor));
         }
 
         private void CreateDb(string dbName)

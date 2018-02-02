@@ -20,3 +20,17 @@
 2018-02-02T18:20:40.154564000 2421.732598s notice: All client connections closed.
 2018-02-02T18:20:40.154576000 2421.732610s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2018-02-02T18:20:40.159232000 2421.737267s notice: Storage engine shut down.
+2018-02-02T18:25:07.023656000 40.095434s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-02-02T18:25:07.091461000 40.163241s notice: Running on Darwin 16.5.0 x86_64
+2018-02-02T18:25:07.091528000 40.163298s notice: Loading data from directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-02T18:25:07.142250000 40.214020s info: Automatically using cache size of 100 MB
+2018-02-02T18:25:07.142262000 40.214031s warn: Cache size does not leave much memory for server and query overhead (available memory: 420 MB).
+2018-02-02T18:25:07.142269000 40.214038s warn: Cache size is very low and may impact performance.
+2018-02-02T18:25:07.146765000 40.218540s notice: Listening for intracluster connections on port 29015
+2018-02-02T18:25:07.156071000 40.227841s notice: Listening for client driver connections on port 28015
+2018-02-02T18:25:07.156551000 40.228321s notice: Listening for administrative HTTP connections on port 8080
+2018-02-02T18:25:07.156557000 40.228326s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-02T18:25:07.156564000 40.228334s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-02T18:25:07.156567000 40.228337s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-02T18:25:07.156574000 40.228344s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-02T18:25:07.156581000 40.228351s notice: Server ready, "Elliots_MacBook_Air_local_gsk" c04a099f-cdce-43e3-ac1c-aafd1bcaf953
