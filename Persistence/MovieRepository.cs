@@ -21,7 +21,7 @@ public class MovieRepository : IMovieRepository
         IEnumerable<Movie> movies = R.Db(_dbName).Table(nameof(Movie)).GetAll().Run(con);
         return movies;
     }
-    void InsertOrUpdate(Movie movie)
+    public void InsertOrUpdate(Movie movie)
     {
         var con = ConnectionFactory.CreateConnection();
         R.Db(_dbName).Table(nameof(Movie)).Insert(movie).Run(con);
