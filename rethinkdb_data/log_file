@@ -1,0 +1,17 @@
+2018-02-02T17:40:58.421427000 40.081863s notice: Recursively removing directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data/tmp
+2018-02-02T17:40:58.435458000 40.095900s notice: Initializing directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-02T17:40:58.435783000 40.096217s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/hurdissej/dev/rethink/rethink/rethinkdb_data' did not already exist or is empty.)
+2018-02-02T17:40:58.435820000 40.096254s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-02-02T17:40:58.501810000 40.162246s notice: Running on Darwin 16.5.0 x86_64
+2018-02-02T17:40:58.501867000 40.162301s notice: Loading data from directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-02T17:40:58.707722000 40.368157s info: Automatically using cache size of 100 MB
+2018-02-02T17:40:58.707746000 40.368180s warn: Cache size does not leave much memory for server and query overhead (available memory: 358 MB).
+2018-02-02T17:40:58.707757000 40.368191s warn: Cache size is very low and may impact performance.
+2018-02-02T17:40:58.714998000 40.375433s notice: Listening for intracluster connections on port 29015
+2018-02-02T17:40:58.724022000 40.384456s notice: Listening for client driver connections on port 28015
+2018-02-02T17:40:58.724168000 40.384602s notice: Listening for administrative HTTP connections on port 8080
+2018-02-02T17:40:58.724170000 40.384604s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-02T17:40:58.724174000 40.384608s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-02T17:40:58.724175000 40.384609s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-02T17:40:58.724179000 40.384613s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-02T17:40:58.724182000 40.384616s notice: Server ready, "Elliots_MacBook_Air_local_gsk" c04a099f-cdce-43e3-ac1c-aafd1bcaf953

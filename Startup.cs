@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using rethink.ObjectDatabaseConfig;
 
 namespace rethink
 {
@@ -23,10 +24,13 @@ namespace rethink
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.Configure<RethinkDbOptions>(Configuration.GetSection("RethinkDbDev"));
+            services.AddSingleton<IRethinkDbConnectionFactory, RethinkDbConnectionFactory>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IRethinkDbConnectionFactory connectionFactory)
         {
             if (env.IsDevelopment())
             {
@@ -53,6 +57,8 @@ namespace rethink
                     name: "spa-fallback",
                     defaults: new { controller = "Home", action = "Index" });
             });
+            var con = connectionFactory.CreateConnection();
+            con.CheckOpen();
         }
     }
 }
