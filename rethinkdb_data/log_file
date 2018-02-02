@@ -15,3 +15,8 @@
 2018-02-02T17:40:58.724175000 40.384609s notice: Listening on http addresses: 127.0.0.1, ::1
 2018-02-02T17:40:58.724179000 40.384613s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2018-02-02T17:40:58.724182000 40.384616s notice: Server ready, "Elliots_MacBook_Air_local_gsk" c04a099f-cdce-43e3-ac1c-aafd1bcaf953
+2018-02-02T18:20:40.153247000 2421.731284s notice: Server got SIGINT from pid 39723, uid 501; shutting down...
+2018-02-02T18:20:40.153708000 2421.731742s notice: Shutting down client connections...
+2018-02-02T18:20:40.154564000 2421.732598s notice: All client connections closed.
+2018-02-02T18:20:40.154576000 2421.732610s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-02T18:20:40.159232000 2421.737267s notice: Storage engine shut down.

@@ -27,10 +27,11 @@ namespace rethink
 
             services.Configure<RethinkDbOptions>(Configuration.GetSection("RethinkDbDev"));
             services.AddSingleton<IRethinkDbConnectionFactory, RethinkDbConnectionFactory>();
+            services.AddSingleton<IRethinkDbStore, RethinkDbStore>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IRethinkDbConnectionFactory connectionFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IRethinkDbConnectionFactory connectionFactory, IRethinkDbStore store)
         {
             if (env.IsDevelopment())
             {
@@ -59,6 +60,8 @@ namespace rethink
             });
             var con = connectionFactory.CreateConnection();
             con.CheckOpen();
+            store.InitialiseDatabase();
+            
         }
     }
 }
