@@ -25,7 +25,7 @@ namespace rethink.ObjectDatabaseConfig
         private void CreateDb(string dbName)
         {
             var conn = _connectionFactory.CreateConnection();
-            if (!R.DbList().Contains(db => dbName).Run(conn))
+            if (!R.DbList().Contains(db => db == dbName).Run(conn))
             {
                 R.DbCreate(dbName).Run(conn);
                 R.Db(dbName).Wait_().Run(conn);
