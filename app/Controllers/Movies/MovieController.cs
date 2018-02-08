@@ -12,7 +12,7 @@ namespace rethink.Controllers.Movies
         public MovieController(IMovieRepository movieRepository, IActorProvider actorRepository)
         {
             this.movieRepository = movieRepository;
-            this.actorRepository = actorRepository;
+            this.actorRepository = actorRepository; 
         }
 
         [HttpGet]
