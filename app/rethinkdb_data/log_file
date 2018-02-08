@@ -1,0 +1,89 @@
+2018-02-02T17:40:58.421427000 40.081863s notice: Recursively removing directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data/tmp
+2018-02-02T17:40:58.435458000 40.095900s notice: Initializing directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-02T17:40:58.435783000 40.096217s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/hurdissej/dev/rethink/rethink/rethinkdb_data' did not already exist or is empty.)
+2018-02-02T17:40:58.435820000 40.096254s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-02-02T17:40:58.501810000 40.162246s notice: Running on Darwin 16.5.0 x86_64
+2018-02-02T17:40:58.501867000 40.162301s notice: Loading data from directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-02T17:40:58.707722000 40.368157s info: Automatically using cache size of 100 MB
+2018-02-02T17:40:58.707746000 40.368180s warn: Cache size does not leave much memory for server and query overhead (available memory: 358 MB).
+2018-02-02T17:40:58.707757000 40.368191s warn: Cache size is very low and may impact performance.
+2018-02-02T17:40:58.714998000 40.375433s notice: Listening for intracluster connections on port 29015
+2018-02-02T17:40:58.724022000 40.384456s notice: Listening for client driver connections on port 28015
+2018-02-02T17:40:58.724168000 40.384602s notice: Listening for administrative HTTP connections on port 8080
+2018-02-02T17:40:58.724170000 40.384604s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-02T17:40:58.724174000 40.384608s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-02T17:40:58.724175000 40.384609s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-02T17:40:58.724179000 40.384613s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-02T17:40:58.724182000 40.384616s notice: Server ready, "Elliots_MacBook_Air_local_gsk" c04a099f-cdce-43e3-ac1c-aafd1bcaf953
+2018-02-02T18:20:40.153247000 2421.731284s notice: Server got SIGINT from pid 39723, uid 501; shutting down...
+2018-02-02T18:20:40.153708000 2421.731742s notice: Shutting down client connections...
+2018-02-02T18:20:40.154564000 2421.732598s notice: All client connections closed.
+2018-02-02T18:20:40.154576000 2421.732610s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-02T18:20:40.159232000 2421.737267s notice: Storage engine shut down.
+2018-02-02T18:25:07.023656000 40.095434s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-02-02T18:25:07.091461000 40.163241s notice: Running on Darwin 16.5.0 x86_64
+2018-02-02T18:25:07.091528000 40.163298s notice: Loading data from directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-02T18:25:07.142250000 40.214020s info: Automatically using cache size of 100 MB
+2018-02-02T18:25:07.142262000 40.214031s warn: Cache size does not leave much memory for server and query overhead (available memory: 420 MB).
+2018-02-02T18:25:07.142269000 40.214038s warn: Cache size is very low and may impact performance.
+2018-02-02T18:25:07.146765000 40.218540s notice: Listening for intracluster connections on port 29015
+2018-02-02T18:25:07.156071000 40.227841s notice: Listening for client driver connections on port 28015
+2018-02-02T18:25:07.156551000 40.228321s notice: Listening for administrative HTTP connections on port 8080
+2018-02-02T18:25:07.156557000 40.228326s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-02T18:25:07.156564000 40.228334s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-02T18:25:07.156567000 40.228337s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-02T18:25:07.156574000 40.228344s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-02T18:25:07.156581000 40.228351s notice: Server ready, "Elliots_MacBook_Air_local_gsk" c04a099f-cdce-43e3-ac1c-aafd1bcaf953
+2018-02-03T14:17:53.814149000 18376.754040s notice: Server got SIGINT from pid 39153, uid 501; shutting down...
+2018-02-03T14:17:53.819330000 18376.759216s notice: Shutting down client connections...
+2018-02-03T14:17:53.820281000 18376.760167s notice: All client connections closed.
+2018-02-03T14:17:53.820296000 18376.760182s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-03T14:17:53.836790000 18376.776677s notice: Storage engine shut down.
+2018-02-03T14:18:36.935244000 40.083290s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-02-03T14:18:36.945552000 40.093611s notice: Running on Darwin 16.5.0 x86_64
+2018-02-03T14:18:36.945658000 40.093696s notice: Loading data from directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-03T14:18:37.001262000 40.149301s info: Automatically using cache size of 100 MB
+2018-02-03T14:18:37.001278000 40.149317s warn: Cache size does not leave much memory for server and query overhead (available memory: 573 MB).
+2018-02-03T14:18:37.001283000 40.149321s warn: Cache size is very low and may impact performance.
+2018-02-03T14:18:37.002046000 40.150085s notice: Listening for intracluster connections on port 29015
+2018-02-03T14:18:37.003487000 40.151526s notice: Listening for client driver connections on port 28015
+2018-02-03T14:18:37.003662000 40.151701s notice: Listening for administrative HTTP connections on port 8080
+2018-02-03T14:18:37.003665000 40.151704s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-03T14:18:37.003669000 40.151708s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-03T14:18:37.003671000 40.151710s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-03T14:18:37.003675000 40.151713s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-03T14:18:37.003678000 40.151717s notice: Server ready, "Elliots_MacBook_Air_local_gsk" c04a099f-cdce-43e3-ac1c-aafd1bcaf953
+2018-02-03T14:32:16.432599000 859.550707s info: Table e5e0eafd-91f4-4061-abf4-0251f08452a9: Starting a new Raft election for term 1.
+2018-02-03T14:32:16.433612000 859.551714s info: Table e5e0eafd-91f4-4061-abf4-0251f08452a9: Added replica on this server.
+2018-02-03T14:32:16.462982000 859.581084s info: Table e5e0eafd-91f4-4061-abf4-0251f08452a9: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-03T14:32:17.378964000 860.497066s info: Table 60ce1fdc-91ea-4de4-8d09-f82bbcafbdc7: Starting a new Raft election for term 1.
+2018-02-03T14:32:17.379127000 860.497228s info: Table 60ce1fdc-91ea-4de4-8d09-f82bbcafbdc7: Added replica on this server.
+2018-02-03T14:32:17.405200000 860.523302s info: Table 60ce1fdc-91ea-4de4-8d09-f82bbcafbdc7: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-05T16:43:14.715764000 18367.318411s notice: Server got SIGINT from pid 39153, uid 501; shutting down...
+2018-02-05T16:43:14.715955000 18367.318595s notice: Shutting down client connections...
+2018-02-05T16:43:14.723726000 18367.326367s notice: All client connections closed.
+2018-02-05T16:43:14.723737000 18367.326377s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-05T16:43:14.820505000 18367.423146s notice: Storage engine shut down.
+2018-02-05T16:45:58.185948000 40.137933s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2018-02-05T16:45:58.260530000 40.212503s notice: Running on Darwin 16.5.0 x86_64
+2018-02-05T16:45:58.260616000 40.212587s notice: Loading data from directory /Users/hurdissej/dev/rethink/rethink/rethinkdb_data
+2018-02-05T16:45:58.320965000 40.272936s info: Automatically using cache size of 100 MB
+2018-02-05T16:45:58.320973000 40.272944s warn: Cache size does not leave much memory for server and query overhead (available memory: 435 MB).
+2018-02-05T16:45:58.320979000 40.272950s warn: Cache size is very low and may impact performance.
+2018-02-05T16:45:58.325240000 40.277211s notice: Listening for intracluster connections on port 29015
+2018-02-05T16:45:58.400920000 40.352892s notice: Listening for client driver connections on port 28015
+2018-02-05T16:45:58.404443000 40.356415s notice: Listening for administrative HTTP connections on port 8080
+2018-02-05T16:45:58.404449000 40.356420s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-05T16:45:58.404452000 40.356423s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-05T16:45:58.404456000 40.356427s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-05T16:45:58.404590000 40.356561s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-05T16:45:58.404594000 40.356565s notice: Server ready, "Elliots_MacBook_Air_local_gsk" c04a099f-cdce-43e3-ac1c-aafd1bcaf953
+2018-02-05T16:45:59.547723000 41.499695s info: Table e5e0eafd-91f4-4061-abf4-0251f08452a9: Starting a new Raft election for term 2.
+2018-02-05T16:45:59.577857000 41.529760s info: Table e5e0eafd-91f4-4061-abf4-0251f08452a9: This server is Raft leader for term 2. Latest log index is 4.
+2018-02-05T16:45:59.674052000 41.625956s info: Table 60ce1fdc-91ea-4de4-8d09-f82bbcafbdc7: Starting a new Raft election for term 2.
+2018-02-05T16:45:59.701170000 41.653074s info: Table 60ce1fdc-91ea-4de4-8d09-f82bbcafbdc7: This server is Raft leader for term 2. Latest log index is 4.
+2018-02-06T20:59:25.194707000 2876.229292s notice: Server got SIGINT from pid 39153, uid 501; shutting down...
+2018-02-06T20:59:25.197003000 2876.231585s notice: Shutting down client connections...
+2018-02-06T20:59:25.198328000 2876.232909s notice: All client connections closed.
+2018-02-06T20:59:25.198343000 2876.232924s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-06T20:59:25.263987000 2876.298569s notice: Storage engine shut down.
