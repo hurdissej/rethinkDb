@@ -27,6 +27,8 @@ namespace rethink
 
             services.Configure<RethinkDbOptions>(Configuration.GetSection("RethinkDbDev"));
             services.AddSingleton<IRethinkDbConnectionFactory, RethinkDbConnectionFactory>();
+            services.AddScoped<IActorProvider, ActorProvider>();
+            services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddSingleton<IRethinkDbStore, RethinkDbStore>();
         }
 
